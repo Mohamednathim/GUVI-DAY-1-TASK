@@ -1,0 +1,33 @@
+OBJECTS:
+        # In JavaScripts, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties.
+        # The object type represents one of JavaScript's data types.It is used to store various keyed collections and more complex entities.
+        # Objects can be created using the Objects() constructor or the object initializer/ literal syntax.
+TYPES:
+      Built-in Objects:
+                       Which are provided by javascript core. Things likeArrays,strings, number,boolean are all built-in objects.
+      User-defined objects:
+                        These are objects which you have created in your program or application.
+
+DIFFERENCE WAYS OF CREATING AN OBJECTS IN JAVASCRIPT:
+       1.Using the object() constructor:
+               var d= new objects();
+       2.Using object.create() method:
+               var d= object.create();
+       3.Using fuction constructor:      
+               var obj= junction(name)
+                   {
+                    this name.name;
+                   }
+               var c= new obj("hello")
+        4.Using function constructor + prototype:
+                function myobj()
+                    {
+
+                    };
+                myobj.prototype.name="hello";
+                    var k= new myobj();
+        5.Using singleton pattern:
+                var 1= new fuction()
+                    {
+                      this.name="hello";
+                    }

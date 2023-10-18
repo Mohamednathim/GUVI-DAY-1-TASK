@@ -1,0 +1,20 @@
+           HTTP1.1 vs HTTP2
+HTTP1.1:
+        # The first usable version of HTTP was created in 1997.Because it went through several stages of development,this first version of HTTP was called HTTP1.1. THIS version is still in use on the web.
+        # HTTP1.1 is a generic,stateless,protocol,which can be used for many tasks beyond its for hypertext, such as name servers and distributed object management systems,through extension of its request methods,error codes and headers.
+        # PERSISTENT CONNECTIONS: in HTTP1.0 each request/response pair requires opening a new connection. In HTTP1.1 it is possible to execute several requests using a single connections.
+        # HTTP1.1 assumes that aTCP connection should be kept open unless directly told to close. This allows the client to send multiple requests along the same connection without waiting for a response to each, greatly improving the performance of HTTP1.1 over HTTP1.0
+        # This version is still in use on the web.
+        # This event indicates that something has gone wrong somewhere.
+        # Yourwebex website is currently being switched over to another setof servers.
+HTTP2:
+        # In 2015, a new version of HTTP called HTTP2 was created. HTTP2 solves several problems that the creators of HTTP1.1 didn't anticipate. In particulars, HTTP2 is much faster than HTTP1.1. ONe of the ways in whichHTTP2 is faster is in how it prioritizes content during the loading process.
+        # It was derived from SPDY protocol as a way to improve the online experience by speeding up page loads and reducing round-trip time(RTT),especially on resource-heavy web pages.
+        # Almost all browsers that use HTTP2 require SSL/TLS to be enabled at the website.
+        # Due to strict origin rules in protocol,one HTTP2 connection can't control the other acrossIP addresses and domain names.
+        # HTTP2 makes web pages load faster and more efficently by streamlining communication between the browser and server.
+        # It is binary to make the framing much easier.
+        # HTTP2 doesn't require you to use TLS.
+        # The primary goals for HTTP2 are to reduce latency by enabling full request and response multiplexing.
+        # HTTP messages formatted into packets with each frame assigned to a stream.
+
